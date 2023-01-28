@@ -1,0 +1,9 @@
+.navbar {
+    padding: 40px 100px;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        padding-left: 4rem;
+    }
+}
