@@ -1,1 +1,3 @@
-# bakery-website
+# Bakery Page
+
+A webpage for a bakery
