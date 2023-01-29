@@ -1,9 +1,39 @@
 .navbar {
-    padding: 40px 100px;
+    padding: 40px 20px;
+}
+
+#navbarNavDropdown {
+    padding: 1rem 0;
+}
+
+.nav-cart-main {
+    display: none;
+}
+
+.nav-cart-collapse {
+    display: block;
 }
 
 @media (min-width: 992px) {
     .nav-item {
-        padding-left: 4rem;
+        padding-left: 2rem;
+    }
+
+    .navbar {
+        padding: 40px 100px;
+    }
+
+    .nav-cart-main {
+        display: block;
+    }
+
+    .nav-cart-collapse {
+        display: none;
     }
 }
+
+/* @media (min-width: 1200px) {
+    .nav-item {
+        padding-left: 4rem;
+    }
+} */
