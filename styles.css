@@ -1,6 +1,9 @@
 :root {
     --main-back: #f8edeb;
     --text-brown: #6d597a;
+    --text-brown-hover: #540b0e;
+    --red-button: #e56b6f;;
+    --red-button-hover: #d90429;
 }
 
 body {
@@ -29,10 +32,23 @@ body {
     display: block;
 }
 
+.nav-item a {
+    padding: 8px 14px;
+}
+
+.nav-item a:hover {
+    color: var(--text-brown-hover);
+}
+
 #nav-order-button {
-    background: #e56b6f;
+    background: var(--red-button);
     color: var(--main-back);
+    padding: 8px 14px;
     border-radius: .5rem;
+}
+
+#nav-order-button:hover {
+    background: var(--red-button-hover);
 }
 
 @media (min-width: 992px) {
