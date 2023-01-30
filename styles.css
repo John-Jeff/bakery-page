@@ -62,7 +62,7 @@ body {
     }
 
     .navbar {
-        padding: 40px 100px;
+        padding: 40px 60px;
     }
 
     .nav-cart-main {
@@ -75,6 +75,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+
+    .navbar {
+        padding: 40px 100px;
+    }
+
     .nav-item {
         padding-left: 4rem;
     }
