@@ -7,12 +7,15 @@
 }
 
 body {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
     background: var(--main-back);
     color: var(--text-brown);
 }
 
 .navbar-nav a {
     color: var(--text-brown);
+    font-weight: 500;
 }
 
 .navbar {
