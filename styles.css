@@ -51,6 +51,10 @@ body {
     background: var(--red-button-hover);
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 @media (min-width: 992px) {
 
     #navbarNavDropdown {
