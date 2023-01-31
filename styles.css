@@ -63,7 +63,8 @@ body {
 /****** Main ******/
 
 main {
-    background-image: url('img/home-bg.png');
+    background: url('img/home-bg.png') no-repeat center;
+    background-size: cover;
     height: 750px;
     display: flex;
     flex-direction: column;
