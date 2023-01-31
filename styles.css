@@ -86,7 +86,15 @@ main {
     font-weight: 500;
     border: 2px solid var(--red-button);
     border-radius: .4em;
+    margin-bottom: 80px;
     padding: .2em 1em;
+    transition: all 200ms;
+}
+
+.main-order-button:hover {
+    background: var(--red-button);
+    color: var(--main-back);
+    border-color: var(--red-button-hover);
 }
 
 
