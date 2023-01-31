@@ -63,11 +63,12 @@ body {
 /****** Main ******/
 
 main {
-    height: 40vh;
+    background-image: url('img/home-bg.png');
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 12vw;
+    padding: 0 12vw;
 }
 
 .main-heading {
@@ -117,7 +118,7 @@ main {
     }
 
     main {
-        margin: 0 12vw;
+        padding: 0 12vw;
     }
 
     .main-heading {
